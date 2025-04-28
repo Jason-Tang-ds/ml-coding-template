@@ -1,6 +1,39 @@
 # credit-card-default-tutorial
 
-A tutorial on credit-card-default
+## Setup 
+
+In this project, we will be using the credit card default dataset from the UCI Machine Learning Repository. 
+
+To set up the project, we will be using the cookiecutter data science project template. 
+
+```
+cookiecutter https://github.com/cookiecutter/cookiecutter
+```
+
+You can start by cloning the repository and then running the command above to create a new project. 
+
+```
+git clone https://github.com/Jason-Tang-ds/ml-coding-template.git
+```
+
+And navigate to the project directory. 
+
+```
+cd ./ml-coding-template/credit-card-default-tutorial
+```
+
+
+
+
+We are using UV to manage the dependencies. 
+
+If you don't have UV installed, you can install it by following the instructions [here](https://docs.astral.sh/uv/getting-started/installation/). 
+
+Once you have UV installed, you can install the dependencies by running the following command. 
+
+```
+uv sync
+```
 
 ## Project Organization
 
@@ -17,7 +50,7 @@ A tutorial on credit-card-default
 ├── docs               <- A default mkdocs project; see www.mkdocs.org for details
 │
 ├── models             <- Trained and serialized models, model predictions, or model summaries
-│
+<!-- │ -->
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
 │                         `1.0-jt-initial-data-exploration`.
