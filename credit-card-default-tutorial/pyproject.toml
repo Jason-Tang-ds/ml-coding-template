@@ -12,6 +12,7 @@ classifiers = [
     
 ]
 dependencies = [
+    "imblearn>=0.0",
     "ipython",
     "jupyterlab",
     "matplotlib",
@@ -22,7 +23,7 @@ dependencies = [
     "pytest",
     "python-dotenv",
     "scikit-learn",
-    "seaborn"
+    "seaborn",
 ]
 requires-python = "~=3.12.0"
 
