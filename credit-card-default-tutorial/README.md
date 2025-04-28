@@ -20,7 +20,7 @@ A tutorial on credit-card-default
 │
 ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
 │                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+│                         `1.0-jt-initial-data-exploration`.
 │
 ├── pyproject.toml     <- Project configuration file with package metadata for 
 │                         credit_card_default_tutorial and configuration for tools like black
